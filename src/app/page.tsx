@@ -76,7 +76,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex justify-between">
-                <button className={`py-1 px-2 ${themeDark ? "text-neutral-900" : "text-neutral-600"} cursor-pointer flex justify-center items-center rounded-full border border-neutral-500 focus:border-2 focus:border-red-500 hover:border-2 hover:font-semibold hover:border-red-500 hover:bg-red-500 hover:text-neutral-900`}>
+                <button className={`py-1 px-2 ${themeDark ? "text-neutral-0" : "text-neutral-900"} cursor-pointer flex justify-center items-center rounded-full border border-neutral-500 focus:border-2 focus:border-red-500 hover:border-2 hover:font-semibold hover:border-red-500 hover:bg-red-500 hover:text-neutral-900`}>
                   Remove
                 </button>
                 <Switch checked={item.isActive}  style={{ backgroundColor: item.isActive ? "#f25c54" : "#545969" }} />
