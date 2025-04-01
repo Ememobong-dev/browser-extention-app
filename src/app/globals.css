@@ -35,7 +35,9 @@ body {
   background: linear-gradient(180deg, #040918 0%, #091540 100%);
   background-repeat: no-repeat;
   background-position: center;
-  height: 100dvh;
+  height: 100%;
+  max-height: 100%;
+  min-height: 100vh;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-noto-sans), sans-serif;
 }
